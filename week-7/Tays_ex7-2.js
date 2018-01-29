@@ -1,5 +1,13 @@
 var header = require('../header.js');
-
+/*
+============================================
+; Title:  Assignment 7-2
+; Author: David Tays
+; Date:   28 January 2018
+; Modified By: <David Tays>
+;
+;===========================================
+*/ 
 /*
  Expected output:
 
@@ -32,7 +40,9 @@ var emps = [
 ];
 
 
-
+//Header
+console.log('\n'); 
+console.log(header.display("David", "Tays", "Excercise 7.2") + "\n");
 //output
 Object.entries(emps).forEach(
     ([index, key]) => console.log(key.firstName + " " + key.lastName + " " + key.title)

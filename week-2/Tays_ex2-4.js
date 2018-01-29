@@ -50,7 +50,11 @@ function convertToFloat(/*string*/txt) {
 console.log('\n'); 
 console.log(header.display("David", "Tays", "Excercise 2.3"));
 console.log("\n");
-console.log('Hello, my name is ' + fullName("David", "Tays") + "\nToday's date is " + dateWriter(/*2016, 10, 25*/) + " and the current temperature is " + formatNumber(33.255555, 1) + " degrees\nI am " + convertToInt("36") + " years old and my savings account goal is " + convertToFloat(1000000) + " dollars.");
+console.log('Hello, my name is ' + fullName("David", "Tays")
+ + "\nToday's date is " + dateWriter(/*2016, 10, 25*/)
+  + " and the current temperature is " + formatNumber(33.255555, 1)
+   + " degrees\nI am " + convertToInt("36") +
+    " years old and my savings account goal is " + convertToFloat(1000000) + " dollars.");
 
 
 // end program 

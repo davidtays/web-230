@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+       
 <head>
     <meta charset="UTF-8">
     <title>Exercise 7.3</title>
@@ -9,23 +10,56 @@
 <body>
 
 
-<div id="list"></div>
+
 
 <script>
     // document.write() code goes here...
     document.write("<h1>SHOPPING LIST v.1</h1>");
     document.write("<ol>");
     // list items
-    documant.write("<li>Oranges</li>");
-    documant.write("<li>Apples</li>");
-    documant.write("<li>Pears</li>");
-    documant.write("<li>Limes</li>");
-    documant.write("<li>Lemons</li>");
+    document.write("<li>Oranges</li>");
+    document.write("<li>Apples</li>");
+    document.write("<li>Pears</li>");
+    document.write("<li>Limes</li>");
+    document.write("<li>Lemons</li>");
     document.write("</ol>");
 </script>
 
+<div id="list"></div>
+
 <script>
     // innerHTML code goes here ...
+    document.getElementById("list").innerHTML = "<h1>SHOPPING LIST v.2</h1>" +
+    "<table>" +
+        "<thead>" +
+            "<tr>" + 
+                "<th>ID</th>" +
+                "<th>Name</th>" +
+            "</tr>" +
+        "</thead>" +
+        "<tbody>" +
+            "<tr>" +
+                "<td>1</td>" +
+                "<td>Oranges</td>" +
+            "</tr>" +
+            "<tr>" +
+                "<td>2</td>" +
+                "<td>Apples</td>" +
+            "</tr>" +
+            "<tr>" +
+                "<td>3</td>" +
+                "<td>Pears</td>" +
+            "</tr>" +
+            "<tr>" +
+                "<td>4</td>" +
+                "<td>Limes</td>" +
+            "</tr>" +
+            "<tr>" +
+                "<td>5</td>" +
+                "<td>Lemons</td>" +
+            "</tr>" +
+        "</tbody>" +
+    "</table>";
 
 </script>
 

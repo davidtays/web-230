@@ -9,7 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/week-1\\hello-world.js"
+            "program": "${workspaceFolder}/week-7\\Tays_ex7-4.html"
         }
     ]
 }

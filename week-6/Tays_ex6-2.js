@@ -3,7 +3,7 @@
 ============================================
 ; Title:  Assignment 6.2
 ; Author: David Tays
-; Date:   09 January 2018
+; Date:   15 January 2018
 ; Modified By: <David Tays>
 ; Description: 
 ;===========================================
@@ -44,7 +44,7 @@ try {
   else{
       console.log('The number is odd');
   }
-  consloe.log('this will fail'); //misspelled console intentionally to throw exception
+  consle.log('this will fail'); //misspelled console intentionally to throw exception
 } catch (err) {
     console.log('Catch clause: The var x is not valid');
 } finally {

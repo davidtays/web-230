@@ -1,3 +1,12 @@
+
+/*
+============================================
+; Title:  Assignment 6.4
+; Author: David Tays
+; Date:   15 January 2018
+; Modified By: <David Tays>
+; Description: 
+;===========================================*/
 var header = require('../header.js');
 
 /*
@@ -31,10 +40,10 @@ var ticket = {
 
 //Header
 console.log('\n'); 
-console.log(header.display("David", "Tays", "Excercise 6.3") + "\n");
+console.log(header.display("David", "Tays", "Excercise 6.4") + "\n");
 
 //Output
-console.log(JSON.stringify(ticket));
+//console.log(JSON.stringify(ticket));
 
 console.log('Ticket ' + ticket.id + ' was created on ' + ticket.dateCreated + ' and assigned to employee ' + ticket.person.firstName + ' ' + ticket.person.lastName + ' (' + ticket.person.jobTitle + ').');
 
