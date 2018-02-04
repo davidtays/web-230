@@ -7,8 +7,8 @@ var header = require('../header.js');
 ; Modified By: <David Tays>
 ;
 ;===========================================
-*/ 
-/*
+ 
+
  Expected output:
 
  FirstName LastName
